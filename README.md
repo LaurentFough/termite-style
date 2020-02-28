@@ -20,8 +20,8 @@ And Then, type... <br />
 
 ```sh
 $ cd termite-style
-$ chmod +x setup
-$ ./setup
+$ chmod +x install
+$ ./install
 ```
 And... Done, termite-style successfully installed. <br />
 
@@ -68,5 +68,5 @@ There are total ***20 Powerline Patched Fonts*** including Anonymous-Pro, Courie
 
 ### FYI
 
-- This note is for people with *weak heart*, the setup file will need the **sudo** permission, because this program puts colors and fonts files inside the *"/usr/share"* directory. So, before asking me "why dafuq this need sudo?"... **Read The FUCKIN CODE.**
+- This note is for people with *weak heart*, the setup file will need the **sudo** permission, because this program puts colors and fonts files inside the *"/usr/share"* directory. So, before asking me "why dafuq this need sudo?"... **Read the code.**
 - That's All Guys... Have Fun, Enjoy.
