@@ -113,7 +113,8 @@ if [[ $cs == "1" ]] || [[ $cs == "01" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-3024-dark.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-3024-dark.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -124,7 +125,8 @@ elif [[ $cs == "2" ]] || [[ $cs == "02" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-3024-light.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-3024-light.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -135,7 +137,8 @@ elif [[ $cs == "3" ]] || [[ $cs == "03" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-apathy-dark.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-apathy-dark.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -146,7 +149,8 @@ elif [[ $cs == "4" ]] || [[ $cs == "04" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-apathy-light.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-apathy-light.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -157,7 +161,8 @@ elif [[ $cs == "5" ]] || [[ $cs == "05" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-ashes-dark.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-ashes-dark.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -168,7 +173,8 @@ elif [[ $cs == "6" ]] || [[ $cs == "06" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-ashes-light.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-ashes-light.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -179,7 +185,8 @@ elif [[ $cs == "7" ]] || [[ $cs == "07" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-atelierdune-dark.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-atelierdune-dark.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -190,7 +197,8 @@ elif [[ $cs == "8" ]] || [[ $cs == "08" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-atelierdune-light.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-atelierdune-light.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -201,7 +209,8 @@ elif [[ $cs == "9" ]] || [[ $cs == "09" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-atelierforest-dark.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-atelierforest-dark.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -212,7 +221,8 @@ elif [[ $cs == "10" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-atelierforest-light.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-atelierforest-light.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -223,7 +233,8 @@ elif [[ $cs == "11" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-atelierheath-dark.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-atelierheath-dark.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -234,7 +245,8 @@ elif [[ $cs == "12" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-atelierheath-light.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-atelierheath-light.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -245,7 +257,8 @@ elif [[ $cs == "13" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-atelierlakeside-dark.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-atelierlakeside-dark.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -256,7 +269,8 @@ elif [[ $cs == "14" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-atelierlakeside-light.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-atelierlakeside-light.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -267,7 +281,8 @@ elif [[ $cs == "15" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-atelierseaside-dark.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-atelierseaside-dark.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -278,7 +293,8 @@ elif [[ $cs == "16" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-atelierseaside-light.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-atelierseaside-light.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -289,7 +305,8 @@ elif [[ $cs == "17" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-bespin-dark.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-bespin-dark.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -300,7 +317,8 @@ elif [[ $cs == "18" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-bespin-light.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-bespin-light.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -311,7 +329,8 @@ elif [[ $cs == "19" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-brewer-dark.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-brewer-dark.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -322,7 +341,8 @@ elif [[ $cs == "20" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-brewer-light.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-brewer-light.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -333,7 +353,8 @@ elif [[ $cs == "21" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-bright-dark.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-bright-dark.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -344,7 +365,8 @@ elif [[ $cs == "22" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-bright-light.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-bright-light.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -355,7 +377,8 @@ elif [[ $cs == "23" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-chalk-dark.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-chalk-dark.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -366,7 +389,8 @@ elif [[ $cs == "24" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-chalk-light.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-chalk-light.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -377,7 +401,8 @@ elif [[ $cs == "25" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-codeschool-dark.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-codeschool-dark.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -388,7 +413,8 @@ elif [[ $cs == "26" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-codeschool-light.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-codeschool-light.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -399,7 +425,8 @@ elif [[ $cs == "27" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-colors-dark.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-colors-dark.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -410,7 +437,8 @@ elif [[ $cs == "28" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-colors-light.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-colors-light.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -421,7 +449,8 @@ elif [[ $cs == "29" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-default-dark.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-default-dark.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -432,7 +461,8 @@ elif [[ $cs == "30" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-default-light.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-default-light.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -443,7 +473,8 @@ elif [[ $cs == "31" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-eighties-dark.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-eighties-dark.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -454,7 +485,8 @@ elif [[ $cs == "32" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-eighties-light.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-eighties-light.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -465,7 +497,8 @@ elif [[ $cs == "33" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-embers-dark.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-embers-dark.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -476,7 +509,8 @@ elif [[ $cs == "34" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-embers-light.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-embers-light.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -487,7 +521,8 @@ elif [[ $cs == "35" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-flat-dark.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-flat-dark.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -498,7 +533,8 @@ elif [[ $cs == "36" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-flat-light.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-flat-light.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -509,7 +545,8 @@ elif [[ $cs == "37" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-google-dark.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-google-dark.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -520,7 +557,8 @@ elif [[ $cs == "38" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-google-light.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-google-light.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -531,7 +569,8 @@ elif [[ $cs == "39" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-grayscale-dark.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-grayscale-dark.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -542,7 +581,8 @@ elif [[ $cs == "40" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-grayscale-light.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-grayscale-light.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -553,7 +593,8 @@ elif [[ $cs == "41" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-greenscreen-dark.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-greenscreen-dark.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -564,7 +605,8 @@ elif [[ $cs == "42" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-greenscreen-light.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-greenscreen-light.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -575,7 +617,8 @@ elif [[ $cs == "43" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-harmonic16-dark.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-harmonic16-dark.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -586,7 +629,8 @@ elif [[ $cs == "44" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-harmonic16-light.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-harmonic16-light.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -597,7 +641,8 @@ elif [[ $cs == "45" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-isotope-dark.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-isotope-dark.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -608,7 +653,8 @@ elif [[ $cs == "46" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-isotope-light.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-isotope-light.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -619,7 +665,8 @@ elif [[ $cs == "47" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-londontube-dark.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-londontube-dark.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -630,7 +677,8 @@ elif [[ $cs == "48" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-londontube-light.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-londontube-light.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -641,7 +689,8 @@ elif [[ $cs == "49" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-marrakesh-dark.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-marrakesh-dark.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -652,7 +701,8 @@ elif [[ $cs == "50" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-marrakesh-light.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-marrakesh-light.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -663,7 +713,8 @@ elif [[ $cs == "51" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-materia.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-materia.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -674,7 +725,8 @@ elif [[ $cs == "52" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-mocha-dark.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-mocha-dark.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -685,7 +737,8 @@ elif [[ $cs == "53" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-mocha-light.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-mocha-light.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -696,7 +749,8 @@ elif [[ $cs == "54" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-monokai-dark.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-monokai-dark.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -707,7 +761,8 @@ elif [[ $cs == "55" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-monokai-light.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-monokai-light.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -718,7 +773,8 @@ elif [[ $cs == "56" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-ocean-dark.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-ocean-dark.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -729,7 +785,8 @@ elif [[ $cs == "57" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-ocean-light.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-ocean-light.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -740,7 +797,8 @@ elif [[ $cs == "58" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-paraiso-dark.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-paraiso-dark.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -751,7 +809,8 @@ elif [[ $cs == "59" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-paraiso-light.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-paraiso-light.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -762,7 +821,8 @@ elif [[ $cs == "60" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-railscasts-dark.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-railscasts-dark.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -773,7 +833,8 @@ elif [[ $cs == "61" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-railscasts-light.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-railscasts-light.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -784,7 +845,8 @@ elif [[ $cs == "62" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-shapeshifter-dark.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-shapeshifter-dark.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -795,7 +857,8 @@ elif [[ $cs == "63" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-shapeshifter-light.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-shapeshifter-light.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -806,7 +869,8 @@ elif [[ $cs == "64" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-solarized-dark.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-solarized-dark.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -817,7 +881,8 @@ elif [[ $cs == "65" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-solarized-light.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-solarized-light.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -828,7 +893,8 @@ elif [[ $cs == "66" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-summerfruit-dark.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-summerfruit-dark.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -839,7 +905,8 @@ elif [[ $cs == "67" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-summerfruit-light.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-summerfruit-light.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -850,7 +917,8 @@ elif [[ $cs == "68" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-tomorrow-dark.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-tomorrow-dark.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -861,7 +929,8 @@ elif [[ $cs == "69" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-tomorrow-light.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-tomorrow-light.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -872,7 +941,8 @@ elif [[ $cs == "70" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-twilight-dark.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-twilight-dark.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -883,7 +953,8 @@ elif [[ $cs == "71" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/base16-twilight-light.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/base16-twilight-light.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -894,7 +965,8 @@ elif [[ $cs == "72" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/black-on-white.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/black-on-white.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -905,7 +977,8 @@ elif [[ $cs == "73" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/dracula.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/dracula.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -916,7 +989,8 @@ elif [[ $cs == "74" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/gnometerm.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/gnometerm.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -927,7 +1001,8 @@ elif [[ $cs == "75" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/gotham.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/gotham.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -938,7 +1013,8 @@ elif [[ $cs == "76" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/gruvbox-dark.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/gruvbox-dark.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -949,7 +1025,8 @@ elif [[ $cs == "77" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/gruvbox-light.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/gruvbox-light.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -960,7 +1037,8 @@ elif [[ $cs == "78" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/material.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/material.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -971,7 +1049,8 @@ elif [[ $cs == "79" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/nancy.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/nancy.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -982,7 +1061,8 @@ elif [[ $cs == "80" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/neon.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/neon.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -993,7 +1073,8 @@ elif [[ $cs == "81" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/nord.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/nord.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -1004,7 +1085,8 @@ elif [[ $cs == "82" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/rydgel.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/rydgel.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -1015,7 +1097,8 @@ elif [[ $cs == "83" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/smyck.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/smyck.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -1026,7 +1109,8 @@ elif [[ $cs == "84" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/solarized-dark.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/solarized-dark.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -1037,7 +1121,8 @@ elif [[ $cs == "85" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/solarized-light.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/solarized-light.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -1048,7 +1133,8 @@ elif [[ $cs == "86" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/tomorrow-night.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/tomorrow-night.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -1059,7 +1145,8 @@ elif [[ $cs == "87" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/white-on-black.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/white-on-black.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -1070,7 +1157,8 @@ elif [[ $cs == "88" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/wild-cherry.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/wild-cherry.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -1081,7 +1169,8 @@ elif [[ $cs == "89" ]];
 then
 echo
 echo -e $C"    $APLC"
-cp $CDIR/zenburn.config $TDIR/config
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/zenburn.config >> $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
