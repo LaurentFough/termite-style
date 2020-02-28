@@ -1214,8 +1214,11 @@ read fs
 if [[ $fs == "1" ]] || [[ $fs == "01" ]];
 then
 echo
+echo -ne $C"    [Enter Font Size]: "
+read fsize
+echo
 echo -e $C"    $APLF"
-sed -i -e 's/font = .*/font = AnonymicePowerline Nerd Font 10/g' $TDIR/config
+sed -i -e "s/font = .*/font = AnonymicePowerline Nerd Font $fsize/g" $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -1225,8 +1228,11 @@ exit
 elif [[ $fs == "2" ]] || [[ $fs == "02" ]];
 then
 echo
+echo -ne $C"    [Enter Font Size]: "
+read fsize
+echo
 echo -e $C"    $APLF"
-sed -i -e 's/font = .*/font = Courier Prime for Powerline 10/g' $TDIR/config
+sed -i -e "s/font = .*/font = Courier Prime for Powerline $fsize/g" $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -1236,8 +1242,11 @@ exit
 elif [[ $fs == "3" ]] || [[ $fs == "03" ]];
 then
 echo
+echo -ne $C"    [Enter Font Size]: "
+read fsize
+echo
 echo -e $C"    $APLF"
-sed -i -e 's/font = .*/font = DejaVuSansMono Nerd Font 10/g' $TDIR/config
+sed -i -e "s/font = .*/font = DejaVuSansMono Nerd Font $fsize/g" $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -1247,8 +1256,11 @@ exit
 elif [[ $fs == "4" ]] || [[ $fs == "04" ]];
 then
 echo
+echo -ne $C"    [Enter Font Size]: "
+read fsize
+echo
 echo -e $C"    $APLF"
-sed -i -e 's/font = .*/font = FantasqueSansMono Nerd Font 10/g' $TDIR/config
+sed -i -e "s/font = .*/font = FantasqueSansMono Nerd Font $fsize/g" $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -1258,8 +1270,11 @@ exit
 elif [[ $fs == "5" ]] || [[ $fs == "05" ]];
 then
 echo
+echo -ne $C"    [Enter Font Size]: "
+read fsize
+echo
 echo -e $C"    $APLF"
-sed -i -e 's/font = .*/font = FuraCode Nerd Font 10/g' $TDIR/config
+sed -i -e "s/font = .*/font = FuraCode Nerd Font $fsize/g" $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -1269,8 +1284,11 @@ exit
 elif [[ $fs == "6" ]] || [[ $fs == "06" ]];
 then
 echo
+echo -ne $C"    [Enter Font Size]: "
+read fsize
+echo
 echo -e $C"    $APLF"
-sed -i -e 's/font = .*/font = FuraMonoForPowerline Nerd Font 10/g' $TDIR/config
+sed -i -e "s/font = .*/font = FuraMonoForPowerline Nerd Font $fsize/g" $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -1280,8 +1298,11 @@ exit
 elif [[ $fs == "7" ]] || [[ $fs == "07" ]];
 then
 echo
+echo -ne $C"    [Enter Font Size]: "
+read fsize
+echo
 echo -e $C"    $APLF"
-sed -i -e 's/font = .*/font = FreeMono for Powerline 10/g' $TDIR/config
+sed -i -e "s/font = .*/font = FreeMono for Powerline $fsize/g" $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -1291,8 +1312,11 @@ exit
 elif [[ $fs == "8" ]] || [[ $fs == "08" ]];
 then
 echo
+echo -ne $C"    [Enter Font Size]: "
+read fsize
+echo
 echo -e $C"    $APLF"
-sed -i -e 's/font = .*/font = Go Mono for Powerline 10/g' $TDIR/config
+sed -i -e "s/font = .*/font = Go Mono for Powerline $fsize/g" $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -1302,8 +1326,11 @@ exit
 elif [[ $fs == "9" ]] || [[ $fs == "09" ]];
 then
 echo
+echo -ne $C"    [Enter Font Size]: "
+read fsize
+echo
 echo -e $C"    $APLF"
-sed -i -e 's/font = .*/font = Knack Nerd Font 10/g' $TDIR/config
+sed -i -e "s/font = .*/font = Knack Nerd Font $fsize/g" $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -1313,8 +1340,11 @@ exit
 elif [[ $fs == "10" ]];
 then
 echo
+echo -ne $C"    [Enter Font Size]: "
+read fsize
+echo
 echo -e $C"    $APLF"
-sed -i -e 's/font = .*/font = Hurmit Nerd Font 10/g' $TDIR/config
+sed -i -e "s/font = .*/font = Hurmit Nerd Font $fsize/g" $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -1324,8 +1354,11 @@ exit
 elif [[ $fs == "11" ]];
 then
 echo
+echo -ne $C"    [Enter Font Size]: "
+read fsize
+echo
 echo -e $C"    $APLF"
-sed -i -e 's/font = .*/font = InconsolataForPowerline Nerd Font 10/g' $TDIR/config
+sed -i -e "s/font = .*/font = InconsolataForPowerline Nerd Font $fsize/g" $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -1335,8 +1368,11 @@ exit
 elif [[ $fs == "12" ]];
 then
 echo
+echo -ne $C"    [Enter Font Size]: "
+read fsize
+echo
 echo -e $C"    $APLF"
-sed -i -e 's/font = .*/font = Iosevka Nerd Font 10/g' $TDIR/config
+sed -i -e "s/font = .*/font = Iosevka Nerd Font $fsize/g" $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -1346,8 +1382,11 @@ exit
 elif [[ $fs == "13" ]];
 then
 echo
+echo -ne $C"    [Enter Font Size]: "
+read fsize
+echo
 echo -e $C"    $APLF"
-sed -i -e 's/font = .*/font = LiterationMonoPowerline Nerd Font 10/g' $TDIR/config
+sed -i -e "s/font = .*/font = LiterationMonoPowerline Nerd Font $fsize/g" $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -1357,8 +1396,11 @@ exit
 elif [[ $fs == "14" ]];
 then
 echo
+echo -ne $C"    [Enter Font Size]: "
+read fsize
+echo
 echo -e $C"    $APLF"
-sed -i -e 's/font = .*/font = MesloLGL Nerd Font 10/g' $TDIR/config
+sed -i -e "s/font = .*/font = MesloLGL Nerd Font $fsize/g" $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -1368,8 +1410,11 @@ exit
 elif [[ $fs == "15" ]];
 then
 echo
+echo -ne $C"    [Enter Font Size]: "
+read fsize
+echo
 echo -e $C"    $APLF"
-sed -i -e 's/font = .*/font = MonofurForPowerline Nerd Font 10/g' $TDIR/config
+sed -i -e "s/font = .*/font = MonofurForPowerline Nerd Font $fsize/g" $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -1379,8 +1424,11 @@ exit
 elif [[ $fs == "16" ]];
 then
 echo
+echo -ne $C"    [Enter Font Size]: "
+read fsize
+echo
 echo -e $C"    $APLF"
-sed -i -e 's/font = .*/font = Monoid Nerd Font 10/g' $TDIR/config
+sed -i -e "s/font = .*/font = Monoid Nerd Font $fsize/g" $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -1390,8 +1438,11 @@ exit
 elif [[ $fs == "17" ]];
 then
 echo
+echo -ne $C"    [Enter Font Size]: "
+read fsize
+echo
 echo -e $C"    $APLF"
-sed -i -e 's/font = .*/font = OpenDyslexicMono for Powerline 10/g' $TDIR/config
+sed -i -e "s/font = .*/font = OpenDyslexicMono for Powerline $fsize/g" $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -1401,8 +1452,11 @@ exit
 elif [[ $fs == "18" ]];
 then
 echo
+echo -ne $C"    [Enter Font Size]: "
+read fsize
+echo
 echo -e $C"    $APLF"
-sed -i -e 's/font = .*/font = RobotoMono Nerd Font 10/g' $TDIR/config
+sed -i -e "s/font = .*/font = RobotoMono Nerd Font $fsize/g" $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -1412,8 +1466,11 @@ exit
 elif [[ $fs == "19" ]];
 then
 echo
+echo -ne $C"    [Enter Font Size]: "
+read fsize
+echo
 echo -e $C"    $APLF"
-sed -i -e 's/font = .*/font = SauceCodePro Nerd Font 10/g' $TDIR/config
+sed -i -e "s/font = .*/font = SauceCodePro Nerd Font $fsize/g" $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
@@ -1423,8 +1480,11 @@ exit
 elif [[ $fs == "20" ]];
 then
 echo
+echo -ne $C"    [Enter Font Size]: "
+read fsize
+echo
 echo -e $C"    $APLF"
-sed -i -e 's/font = .*/font = UbuntuMono Nerd Font 10/g' $TDIR/config
+sed -i -e "s/font = .*/font = UbuntuMono Nerd Font $fsize/g" $TDIR/config
 $REL > /dev/null
 echo -e $G"    $RES"
 echo -e $Y"    $APLD"
