@@ -22,9 +22,17 @@ echo -e $B"   └─────────────────────
 echo -e $B"   [$R*$B] By-$Y Aditya Shakya $R//$Y adi1090x"
 echo
 
+if [ ! -L /usr/bin/termite-style ] && [ ! -d /usr/share/termite-style ]; then
+echo -e $G"    [*] termite-style is not installed."
+echo
+exit
+fi
+
 echo -e $G"   [*] uninstalling termite-style..."
 echo
 
+echo -e $Y"    [*] Need 'sudo' to remove files from '/usr' dir."
+echo
 sudo rm -rf /usr/share/termite-style/
 sudo rm -rf /usr/share/fonts/tsf/
 sudo fc-cache
@@ -33,5 +41,10 @@ if [ -L /usr/bin/termite-style ]; then
 	sudo rm /usr/bin/termite-style
 fi
 
-echo -e $G"   [*] Completed."
+if [ ! -L /usr/bin/termite-style ] && [ ! -d /usr/share/termite-style ]; then
+echo -e $G"    [*] Uninstalled Successfully."
 echo
+else
+echo -e $R"    [!] Error Occured."
+echo
+fi
