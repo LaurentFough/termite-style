@@ -23,18 +23,18 @@ echo -e $B"   [$R*$B] By-$Y Aditya Shakya $R//$Y adi1090x"
 echo
 
 if [ -L /usr/bin/termite-style ] && [ -d /usr/share/termite-style ]; then
-echo -e $G"    [*] 'termite-style' is already installed."
+echo -e $G"   [*] 'termite-style' is already installed."
 echo
 exit
 fi
 
-echo -e $Y"    [*] Checking if 'termite' installed..."
+echo -e $Y"   [*] Checking if 'termite' installed..."
 echo
 if [ ! -f /usr/bin/termite ]; then
-echo -e $R"    [*] 'termite' is not installed, please install it first."
+echo -e $R"   [*] 'termite' is not installed, please install it first."
 echo
 else
-echo -e $G"    [*] 'termite' is installed."
+echo -e $G"   [*] 'termite' is installed."
 echo
 fi
 
@@ -53,7 +53,7 @@ fi
 # Copy new config
 cp $DIR/config $HOME/.config/termite
 
-echo -e $Y"    [*] Need 'sudo' to put files in '/usr' dir."$B
+echo -e $Y"   [*] Need 'sudo' to put files in '/usr' dir."$B
 echo
 sudo mkdir /usr/share/termite-style/
 sudo mkdir /usr/share/fonts/tsf/
@@ -67,13 +67,13 @@ sudo fc-cache
 sudo ln -s /usr/share/termite-style/theme /usr/bin/termite-style
 
 if [ -L /usr/bin/termite-style ] && [ -d /usr/share/termite-style ]; then
-echo -e $G"    [*] Setup Completed."
+echo -e $G"   [*] Setup Completed."
 echo
-echo -e $Y"    [*] Now You Can Run This Program By Just typing 'termite-style'."
+echo -e $Y"   [*] Now You Can Run This Program By Just typing 'termite-style'."
 echo
-echo -e $B"    [*] Developed By$R Aditya Shakya."
+echo -e $B"   [*] Developed By$R Aditya Shakya."
 echo
 else
-echo -e $R"    [!] Error Occured."
+echo -e $R"   [!] Error Occured."
 echo
 fi
