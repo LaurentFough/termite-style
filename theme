@@ -40,6 +40,7 @@ echo
 echo
 echo -e $B"    [$R"C"$B]$G Colors"
 echo -e $B"    [$R"F"$B]$G Fonts"
+echo -e $B"    [$R"R"$B]$G Random"
 echo -e $B"    [$R"A"$B]$G About "
 echo -e $B"    [$R"Q"$B]$G Quit"
 echo
@@ -1502,6 +1503,19 @@ $PREFIX/share/termite-style/theme
 echo
 exit
 fi
+
+#************************************************#
+
+elif [[ $opt == "r" ]] || [[ $opt == "R" ]]; then
+echo
+echo -e $Y"    [*] Setting Random Style..."
+RNDM="$(ls $CDIR | shuf -n 1)"
+sed -i '/colors/Q' $TDIR/config
+cat $CDIR/$RNDM >> $TDIR/config
+echo -e $Y"    $APLD"
+$REL > /dev/null
+echo
+exit
 
 #************************************************#
 

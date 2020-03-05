@@ -1,36 +1,62 @@
 ![logo](https://raw.githubusercontent.com/adi1090x/termite-style/master/previews/ts-logo.png) <br />
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Maintained%3F-Yes-blueviolet?style=flat-square">
+  <img src="https://img.shields.io/github/license/adi1090x/termite-style?style=flat-square">
+  <img src="https://img.shields.io/github/stars/adi1090x/termite-style?color=red&style=flat-square">
+  <img src="https://img.shields.io/github/forks/adi1090x/termite-style?style=flat-square">
+  <img src="https://img.shields.io/github/issues/adi1090x/termite-style?style=flat-square">
+</p>
+
 A Simple Program To Change Colors And Fonts Of Termite In Real Time. <br />
 
-**"termite-style" provides color schemes and powerline-ready fonts to customize the appearance of the Termite terminal**. <br />
+### How to install
 
-This Setup Contains -
-- 90 Amazing Color-Scheme <br />
-- 20 Powerline-Ready Fonts <br />
+Follow the steps below - 
 
-**How To** : Follow Instructions Below... <br />
+```bash
+# go to home dir - 
+cd $HOME
 
-First, clone this repository by typing... <br />
+# clone this repository - 
+git clone https://github.com/adi1090x/termite-style
 
-```sh
-$ git clone https://github.com/adi1090x/termite-style.git
+# change to kitty-cat dir -
+cd termite-style
+
+# to install it, run -
+./install
+
+# And Follow the steps, it'll be installed on your system.
 ```
+### Run
 
-And Then, type... <br />
+Run `termite-style` & select the right option -
 
-```sh
-$ cd termite-style
-$ chmod +x install
-$ ./install
+```bash
+$ termite-style
+    ┌──────────────────────────────────────────────────────┐
+    │░░░▀█▀░█▀▀░█▀▄░█▄█░▀█▀░▀█▀░█▀▀░░░█▀▀░▀█▀░█░█░█░░░█▀▀░░│
+    │░░░░█░░█▀▀░█▀▄░█░█░░█░░░█░░█▀▀░░░▀▀█░░█░░░█░░█░░░█▀▀░░│
+    │░░░░▀░░▀▀▀░▀░▀░▀░▀░▀▀▀░░▀░░▀▀▀░░░▀▀▀░░▀░░░▀░░▀▀▀░▀▀▀░░│
+    └──────────────────────────────────────────────────────┘
+    [*] By- Aditya Shakya // adi1090x
+
+
+    [C] Colors
+    [F] Fonts
+    [R] Random
+    [A] About 
+    [Q] Quit
+
+    [Select Option]: 
 ```
-And... Done, termite-style successfully installed. <br />
+### Features
 
-**How to use**:
-
-1. After successfully installed, type 'termite-style' to open the program.  <br />
-2. Select right option and go further. <br />
-3. Select color-scheme or font's option. <br />
-4. And, Done! Here are some previews... <br />
++ 90 popular colorschemes.
++ 20 powerline patched fonts.
++ Randomely change colorschemes.
++ Set colors and fonts in place.
 
 ## Color Schemes Previews
 
