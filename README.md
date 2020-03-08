@@ -76,7 +76,8 @@ $ termite-style
 
 + To import *local file*, enter the full path (ie - `/home/aditya/dracula.config`) of the colorscheme file.
 + To import *web file*, enter the file url (ie - `https://raw.githubusercontent.com/NearHuscarl/termite-color-switcher/master/color/codeschool`) of the colorscheme file.
-<br />
++ You can generate color schemes from [terminal.sexy](https://terminal.sexy/) and export it to a file in termite format, then import it in `termite-style`.
++ I've already generated 500 random color-schemes from *terminal.sexy*, which you can get [here](https://github.com/adi1090x/tRandomizer/tree/master/colors), just copy the ***[raw file url](https://raw.githubusercontent.com/adi1090x/tRandomizer/master/colors/110.color)*** and paste it in `termite-style`.
 
 ## Color Schemes Previews
 
