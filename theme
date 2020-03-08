@@ -41,6 +41,7 @@ echo
 echo -e $B"    [$R"C"$B]$G Colors"
 echo -e $B"    [$R"F"$B]$G Fonts"
 echo -e $B"    [$R"R"$B]$G Random"
+echo -e $B"    [$R"I"$B]$G Import"
 echo -e $B"    [$R"A"$B]$G About "
 echo -e $B"    [$R"Q"$B]$G Quit"
 echo
@@ -1182,7 +1183,7 @@ exit
 else
 echo
 echo -e $Y"    [!] Please Choose Valid Option..."
-echo -e $G"    [*] Returning To Main Menu..."
+echo -ne $G"    [*] Returning To Main Menu..."
 sleep 1
 clear
 $PREFIX/share/termite-style/theme
@@ -1496,7 +1497,7 @@ exit
 else
 echo
 echo -e $Y"    [!] Please Choose Valid Option..."
-echo -e $G"    [*] Returning To Main Menu..."
+echo -ne $G"    [*] Returning To Main Menu..."
 sleep 1
 clear
 $PREFIX/share/termite-style/theme
@@ -1515,6 +1516,45 @@ cat $CDIR/$RNDM >> $TDIR/config
 echo -e $Y"    $APLD"
 $REL > /dev/null
 echo
+exit
+
+#************************************************#
+
+elif [[ $opt == "i" ]] || [[ $opt == "I" ]]; then
+echo
+echo -e $B"    [$R"P"$B]$G PATH (Local File)"
+echo -e $B"    [$R"U"$B]$G URL (Internet File)"
+echo
+echo -ne $B"    [$R"Choose"$B]$B: "
+read opt
+if [[ $opt == "p" ]] || [[ $opt == "P" ]]; then
+echo
+echo -ne $C"    [Enter Path To Color-scheme]: "$Y
+read cpath
+sed -i '/colors/Q' $TDIR/config
+cat $cpath >> $TDIR/config
+echo -e $Y"    $APLD"
+$REL > /dev/null
+echo
+elif [[ $opt == "u" ]] || [[ $opt == "U" ]]; then
+echo
+echo -ne $C"    [Enter Color-scheme URL]: "$Y
+read clink
+wget -o /tmp/log -O /tmp/color.config $clink
+sed -i '/colors/Q' $TDIR/config
+cat /tmp/color.config >> $TDIR/config
+echo -e $Y"    $APLD"
+$REL > /dev/null
+echo
+else
+echo
+echo -e $Y"    [!] Wrong Input..."
+echo -ne $G"    [*] Try Again..."
+sleep 1
+clear
+$PREFIX/share/termite-style/theme
+echo
+fi
 exit
 
 #************************************************#
@@ -1552,6 +1592,7 @@ elif [[ $opt == "q" ]] || [[ $opt == "Q" ]];
 then
 echo
 echo -e $Y"    [*] Bye Bye, Have A Nice Day!"
+echo
 sleep 1
 exit
 
@@ -1561,7 +1602,7 @@ exit
 else
 echo
 echo -e $Y"    [!] Wrong Input..."
-echo -e $G"    [*] Try Again..."
+echo -ne $G"    [*] Try Again..."
 sleep 1
 clear
 $PREFIX/share/termite-style/theme

@@ -35,6 +35,7 @@ Run `termite-style` & select the right option -
 
 ```bash
 $ termite-style
+
     ┌──────────────────────────────────────────────────────┐
     │░░░▀█▀░█▀▀░█▀▄░█▄█░▀█▀░▀█▀░█▀▀░░░█▀▀░▀█▀░█░█░█░░░█▀▀░░│
     │░░░░█░░█▀▀░█▀▄░█░█░░█░░░█░░█▀▀░░░▀▀█░░█░░░█░░█░░░█▀▀░░│
@@ -46,6 +47,7 @@ $ termite-style
     [C] Colors
     [F] Fonts
     [R] Random
+    [I] Import
     [A] About 
     [Q] Quit
 
@@ -56,7 +58,25 @@ $ termite-style
 + 90 popular colorschemes.
 + 20 powerline patched fonts.
 + Randomely change colorschemes.
++ Import colorschemes from *local file* and *file URL*.
 + Set colors and fonts in place.
+
+### Use Import
+```bash
+    [Select Option]: i
+
+    [P] PATH (Local File)
+    [U] URL (Internet File)
+
+    [Choose]: U
+
+    [Enter Color-scheme URL]: https://raw.githubusercontent.com/NearHuscarl/termite-color-switcher/master/color/codeschool
+    [*] Applied Successfully.
+```
+
++ To import *local file*, enter the full path (ie - `/home/aditya/dracula.config`) of the colorscheme file.
++ To import *web file*, enter the file url (ie - `https://raw.githubusercontent.com/NearHuscarl/termite-color-switcher/master/color/codeschool`) of the colorscheme file.
+<br />
 
 ## Color Schemes Previews
 
