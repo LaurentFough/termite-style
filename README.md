@@ -1,11 +1,17 @@
-![logo](https://raw.githubusercontent.com/adi1090x/termite-style/master/previews/ts-logo.png) <br />
+<!--![logo](https://raw.githubusercontent.com/adi1090x/termite-style/master/previews/ts-logo.png) <br /> -->
+# termite-style
 
-<p align="center">
+<p align="left">
   <img src="https://img.shields.io/badge/Maintained%3F-Yes-blueviolet?style=flat-square">
   <img src="https://img.shields.io/github/license/adi1090x/termite-style?style=flat-square">
   <img src="https://img.shields.io/github/stars/adi1090x/termite-style?color=red&style=flat-square">
   <img src="https://img.shields.io/github/forks/adi1090x/termite-style?style=flat-square">
   <img src="https://img.shields.io/github/issues/adi1090x/termite-style?style=flat-square">
+</p>
+
+<p align="left">
+<a href="https://www.buymeacoffee.com/adi1090x"><img src="https://raw.githubusercontent.com/adi1090x/files/master/other/bmac.png" alt="Buy Me A Coffee"></a>
+<a href="https://ko-fi.com/adi1090x"><img src="https://raw.githubusercontent.com/adi1090x/files/master/other/kofi.png" alt="Support me on ko-fi"></a>
 </p>
 
 A Simple Program To Change Colors And Fonts Of Termite In Real Time. <br />
@@ -112,6 +118,13 @@ There are total ***90 color-schemes*** including black-on-white, dracula, gnomet
 ![preview6](https://raw.githubusercontent.com/adi1090x/termite-style/master/previews/font_6.png) <br />
 
 There are total ***20 Powerline Patched Fonts*** including Anonymous-Pro, Courier-Prime, DejaVu, Fantasque, FiraCode, Fira, GNU-FreeFont, Go-font, Hack, Hermit, Inconsolata, Iosevka, LiberationMono, Meslo, Monofur, Monoid, OpenDyslexic, Roboto, Source-Code-Pro, Ubuntu. <br />
+
+### Support Me
+<p align="left">
+<a href="https://www.paypal.me/adi1090x" target="_blank"><img alt="undefined" src="https://img.shields.io/badge/paypal-adi1090x-blue?style=for-the-badge&logo=paypal"></a>
+<a href="https://www.buymeacoffee.com/adi1090x" target="_blank"><img alt="undefined" src="https://img.shields.io/badge/BuyMeAcoffee-adi1090x-orange?style=for-the-badge&logo=buy-me-a-coffee"></a>  
+<a href="https://ko-fi.com/adi1090x" target="_blank"><img alt="undefined" src="https://img.shields.io/badge/KoFi-adi1090x-red?style=for-the-badge&logo=ko-fi"></a>  
+</p>
 
 ### FYI
 
